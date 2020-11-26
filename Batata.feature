@@ -1,7 +1,11 @@
 #language : pt
 
 Funcionalidade: Pesquisa
-    Cenario: Pesquisar imagem de uma batata
-        Dado Digitar batata na barra de pesquisa
-        Quando Realizar a pesquisa ir para imagens
-        Então Buscas pela primeira imagem
+
+
+    Cenario: Pesquisar batata
+        Dado que estaja na home
+        Quando pesquisar por batata 
+        E acessar a sessão imagens 
+        E selecionar a primeira imagem
+        Então deverá retornar a imagem

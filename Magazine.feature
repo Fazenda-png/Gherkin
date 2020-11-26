@@ -3,5 +3,6 @@
 Funcionalidade: Adicionar ao carrinho
     Cenario: Pesquisar produto e adicionar ao carrinho
         Dado Acessar a Home
-        Quando Pesquisar <Computador> na barra de pesquisa
-        Então Adicionar o primeiro produto ao carrinho
+        Quando Pesquisar computador na barra de pesquisa
+        E adicionar o primeiro produto ao carrinho
+        Então deverá aparecer o produto no carrinho

@@ -1,11 +1,7 @@
- #language: pt
-Funcionalidade: Carrinho
-    Cenário: Adicionar produto ao carrinho 
+#language: pt
+Funcionalidade: Produto
+    Cenário: Adicionar ao carrinho
         Dado que esteja na home
-        Quando pesquisar produto
-
-    Exemplos:
-
-            | Nome do produto |
-            | Computador      |
-            | Celular         |
+        Quando pesquisar computador
+        E adicionar o produto ao carrinho
+        Então deverá ser exibido no carrinho
